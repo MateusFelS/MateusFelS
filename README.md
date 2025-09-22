@@ -30,10 +30,4 @@ Meu objetivo é evoluir constantemente e contribuir para a **qualidade, estabili
 
 ## 📊 Estatísticas  
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=MateusFelS&show_icons=true&theme=dracula)  
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MateusFelS&layout=compact&theme=dracula)  
-
----
-
-✨ Sempre em busca de evoluir como **QA Engineer** e garantir qualidade em cada entrega!
