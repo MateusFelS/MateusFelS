@@ -7,9 +7,15 @@
 ---
 
 ## 🚀 Sobre mim  
-Sou **Bacharel em Ciência da Computação** com foco em **Quality Assurance (QA)**.  
-Tenho experiência prática em **testes manuais e automatizados** com **Cypress** e **Playwright**, validação de **APIs** e **testes de UI responsivos**.  
-Atuo também com **planejamento de testes, documentação, reporte de bugs em Jira/Trello** e **integração contínua com GitHub Actions**.  
+
+Bacharel em Ciência da Computação com foco em Quality Assurance (QA), buscando 
+oportunidade como Engenheiro de Qualidade Júnior. Tenho experiência prática em testes 
+manuais e automatizados utilizando Playwright e Cypress para validar aplicações web e APIs. 
+Possuo habilidades em criação de casos e planos de teste, testes de UI para avaliar 
+responsividade, documentação e reporte de bugs com ferramentas como Jira e Trello, além de 
+familiaridade com CI/CD via GitHub Actions e metodologias ágeis como Scrum e Kanban. Meu 
+perfil é analítico, atento aos detalhes e estou sempre em busca de evolução contínua na área de 
+QA, contribuindo para a qualidade, estabilidade e confiabilidade dos sistem 
 
 Meu objetivo é evoluir constantemente e contribuir para a **qualidade, estabilidade e confiabilidade** dos sistemas.  
 
