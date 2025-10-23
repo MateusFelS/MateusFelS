@@ -13,11 +13,12 @@ oportunidade como Engenheiro de Qualidade Júnior. Tenho experiência prática e
 manuais e automatizados utilizando Playwright e Cypress para validar aplicações web e APIs. 
 Possuo habilidades em criação de casos e planos de teste, testes de UI para avaliar 
 responsividade, documentação e reporte de bugs com ferramentas como Jira e Trello, além de 
-familiaridade com CI/CD via GitHub Actions e metodologias ágeis como Scrum e Kanban. Meu 
-perfil é analítico, atento aos detalhes e estou sempre em busca de evolução contínua na área de 
-QA, contribuindo para a qualidade, estabilidade e confiabilidade dos sistem 
+familiaridade com CI/CD via GitHub Actions e metodologias ágeis como Scrum e Kanban.
 
-Meu objetivo é evoluir constantemente e contribuir para a **qualidade, estabilidade e confiabilidade** dos sistemas.  
+Atualmente, atuo em um projeto voluntário na empresa ConectaBem, aplicando na prática 
+minhas habilidades de QA em um ambiente real de desenvolvimento. Essa experiência tem me 
+permitido colaborar com uma equipe multidisciplinar, contribuir para a qualidade do produto e 
+aprimorar continuamente meus conhecimentos técnicos e interpessoais. 
 
 ---
 
