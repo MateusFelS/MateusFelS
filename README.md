@@ -1,43 +1,68 @@
-# Mateus Felipe dos Santos  
+# Mateus Felipe dos Santos
 
-💻 Analista de QA (Junior) | Testes Manuais, API e Automação  
-📍 Fartura - SP  
-🔗 [LinkedIn](https://linkedin.com/in/mateus-santos-qa) | [GitHub](https://github.com/MateusFelS)  
-📧 mateus.fes14@gmail.com  
-
----
-
-## 🚀 Sobre  
-
-QA com experiência em testes manuais e automatizados em aplicações web e APIs.  
-Atuação na criação de casos de teste, execução (funcionais, regressivos e exploratórios), validação de regras de negócio e reporte de bugs.
-
-Experiência com automação utilizando Cypress e Playwright, testes de API com Postman e CI/CD com GitHub Actions.  
-Vivência em ambiente ágil (Scrum/Kanban) e foco na qualidade das entregas.
-
-Atuação contínua como QA em projeto real (ConectaBem) há ~1 ano, colaborando com o time de desenvolvimento na validação de funcionalidades e qualidade do produto.
+💻 Analista de QA (Junior) | Testes Manuais, API e Automação
+📍 Fartura - SP
+🔗 [LinkedIn](https://linkedin.com/in/mateus-santos-qa) | [GitHub](https://github.com/MateusFelS)
+📧 [mateus.fes14@gmail.com](mailto:mateus.fes14@gmail.com)
 
 ---
 
-## 🛠️ Skills  
+## 🚀 Sobre
 
-**Testes:**  
-Funcionais • Regressão • Exploratórios • Casos de Teste • Testes de API  
+QA com atuação prática em testes de aplicações web e APIs, com foco em identificar falhas antes da entrega ao usuário final.
 
-**Automação:**  
-Cypress • Playwright  
+Experiência em:
 
-**Ferramentas:**  
-Postman • Jira • Git • GitHub • GitHub Actions  
+* Criação e execução de casos de teste (funcionais, regressivos e exploratórios)
+* Validação de regras de negócio e fluxos críticos
+* Testes de API com Postman
+* Automação de testes E2E com Cypress e Playwright
 
-**Banco de Dados:**  
-MySQL • SQL (básico)  
-
-**Tecnologias:**  
-JavaScript • TypeScript • HTML • CSS  
+Atuo há cerca de 1 ano no projeto **ConectaBem**, contribuindo na validação contínua das funcionalidades, identificação de bugs e melhoria da qualidade do produto em ambiente ágil.
 
 ---
 
-## 📊 Estatísticas  
+## 🧪 Experiência prática
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MateusFelS&layout=compact&theme=dracula)
+### 🔹 ConectaBem (Projeto real)
+
+* Execução de testes manuais em novas funcionalidades e regressões
+* Criação de cenários de teste baseados em regras de negócio
+* Identificação e reporte de bugs com detalhamento técnico
+* Apoio ao time de desenvolvimento na validação de entregas
+* Testes de API utilizando Postman
+
+---
+
+## 🛠️ Skills
+
+**Testes:**
+Funcionais • Regressão • Exploratórios • Casos de Teste • Testes de API
+
+**Automação:**
+Cypress • Playwright
+
+**Ferramentas:**
+Postman • Jira • Git • GitHub • GitHub Actions
+
+**Banco de Dados:**
+MySQL • SQL (básico)
+
+**Tecnologias:**
+JavaScript • TypeScript • HTML • CSS
+
+---
+
+## 📂 Projetos de Automação
+
+👉 (adicione aqui repositórios com testes reais)
+
+* Automação com Cypress (E2E)
+* Automação com Playwright
+* Testes de API com Postman
+
+---
+
+## 📊 Estatísticas
+
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MateusFelS&layout=compact&theme=dracula)
