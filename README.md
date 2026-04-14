@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Sobre
+## Sobre
 
 QA com atuação prática em testes de aplicações web e APIs, com foco em identificar falhas antes da entrega ao usuário final.
 
@@ -22,9 +22,9 @@ Atuo há cerca de 1 ano no projeto **ConectaBem**, contribuindo na validação c
 
 ---
 
-## 🧪 Experiência prática
+## Experiência prática
 
-### 🔹 ConectaBem (Projeto real)
+### ConectaBem (Projeto real)
 
 * Planejamento e execução de cerca de 20–30 cenários de testes funcionais e exploratórios por ciclo
 * Automação de cenários críticos utilizando Cypress
@@ -35,7 +35,7 @@ Atuo há cerca de 1 ano no projeto **ConectaBem**, contribuindo na validação c
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 **Testes:**
 Funcionais • Regressão • Exploratórios • Casos de Teste • Testes de API
