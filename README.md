@@ -1,40 +1,43 @@
-# 👋 Olá, eu sou o Mateus Santos  
+# Mateus Felipe dos Santos  
 
-💻 **Engenheiro de Qualidade | QA Júnior**  
-📍 Fartura - SP | 🌐 [LinkedIn](https://linkedin.com/in/mateus-santos-7350381a6) | [GitHub](https://github.com/MateusFelS)  
-📧 **E-mail:** mateus.fes14@gmail.com  
-
----
-
-## 🚀 Sobre mim  
-
-Bacharel em Ciência da Computação com foco em Quality Assurance (QA), buscando 
-oportunidade como Engenheiro de Qualidade Júnior. Tenho experiência prática em testes 
-manuais e automatizados utilizando Playwright e Cypress para validar aplicações web e APIs. 
-Possuo habilidades em criação de casos e planos de teste, testes de UI para avaliar 
-responsividade, documentação e reporte de bugs com ferramentas como Jira e Trello, além de 
-familiaridade com CI/CD via GitHub Actions e metodologias ágeis como Scrum e Kanban.
-
-Atualmente, atuo em um projeto voluntário na empresa ConectaBem, aplicando na prática 
-minhas habilidades de QA em um ambiente real de desenvolvimento. Essa experiência tem me 
-permitido colaborar com uma equipe multidisciplinar, contribuir para a qualidade do produto e 
-aprimorar continuamente meus conhecimentos técnicos e interpessoais. 
+💻 Analista de QA (Junior) | Testes Manuais, API e Automação  
+📍 Fartura - SP  
+🔗 [LinkedIn](https://linkedin.com/in/mateus-santos-qa) | [GitHub](https://github.com/MateusFelS)  
+📧 mateus.fes14@gmail.com  
 
 ---
 
-## 🛠️ Habilidades Técnicas  
+## 🚀 Sobre  
 
-- **Testes Automatizados:** Cypress, Playwright  
-- **Testes Manuais:** Funcionais, Regressão, Aceitação, Exploratórios  
-- **APIs:** Postman  
-- **Gestão de Bugs:** Jira, Trello  
-- **Banco de Dados:** MySQL, Prisma  
-- **Linguagens:** JavaScript, TypeScript, Python, Dart  
-- **Frameworks:** React, React Native, Flutter, Nest.js, .NET  
-- **Outros:** Git, GitHub, GitHub Actions (CI), HTML, CSS, Tailwind  
+QA com experiência em testes manuais e automatizados em aplicações web e APIs.  
+Atuação na criação de casos de teste, execução (funcionais, regressivos e exploratórios), validação de regras de negócio e reporte de bugs.
+
+Experiência com automação utilizando Cypress e Playwright, testes de API com Postman e CI/CD com GitHub Actions.  
+Vivência em ambiente ágil (Scrum/Kanban) e foco na qualidade das entregas.
+
+Atuação contínua como QA em projeto real (ConectaBem) há ~1 ano, colaborando com o time de desenvolvimento na validação de funcionalidades e qualidade do produto.
+
+---
+
+## 🛠️ Skills  
+
+**Testes:**  
+Funcionais • Regressão • Exploratórios • Casos de Teste • Testes de API  
+
+**Automação:**  
+Cypress • Playwright  
+
+**Ferramentas:**  
+Postman • Jira • Git • GitHub • GitHub Actions  
+
+**Banco de Dados:**  
+MySQL • SQL (básico)  
+
+**Tecnologias:**  
+JavaScript • TypeScript • HTML • CSS  
 
 ---
 
 ## 📊 Estatísticas  
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MateusFelS&layout=compact&theme=dracula)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MateusFelS&layout=compact&theme=dracula)
