@@ -1,9 +1,9 @@
 # Mateus Felipe dos Santos
 
-💻 Analista de QA (Junior) | Testes Manuais, API e Automação
-📍 Fartura - SP
-🔗 [LinkedIn](https://linkedin.com/in/mateus-santos-qa) | [GitHub](https://github.com/MateusFelS)
-📧 [mateus.fes14@gmail.com](mailto:mateus.fes14@gmail.com)
+💻 Analista de QA (Junior) | Testes Manuais, API e Automação   
+📍 Fartura - SP   
+🔗 [LinkedIn](https://linkedin.com/in/mateus-santos-qa) | [GitHub](https://github.com/MateusFelS)   
+📧 [mateus.fes14@gmail.com](mailto:mateus.fes14@gmail.com)   
 
 ---
 
@@ -60,9 +60,3 @@ JavaScript • TypeScript • HTML • CSS
 * Automação com Cypress (E2E)
 * Automação com Playwright
 * Testes de API com Postman
-
----
-
-## 📊 Estatísticas
-
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MateusFelS&layout=compact&theme=dracula)
