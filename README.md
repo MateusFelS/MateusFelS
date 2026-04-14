@@ -26,11 +26,12 @@ Atuo há cerca de 1 ano no projeto **ConectaBem**, contribuindo na validação c
 
 ### 🔹 ConectaBem (Projeto real)
 
-* Execução de testes manuais em novas funcionalidades e regressões
-* Criação de cenários de teste baseados em regras de negócio
-* Identificação e reporte de bugs com detalhamento técnico
-* Apoio ao time de desenvolvimento na validação de entregas
-* Testes de API utilizando Postman
+* Planejamento e execução de cerca de 20–30 cenários de testes funcionais e exploratórios por ciclo
+* Automação de cenários críticos utilizando Cypress
+* Testes de API com Postman, incluindo validação de endpoints e registro de evidências
+* Identificação, reporte e acompanhamento de 30+ bugs ao longo do ciclo de desenvolvimento
+* Validação de interfaces e protótipos no Figma em parceria com o time de design
+* Participação em cerimônias ágeis e apoio ao Product Owner no refinamento de tarefas
 
 ---
 
@@ -50,13 +51,3 @@ MySQL • SQL (básico)
 
 **Tecnologias:**
 JavaScript • TypeScript • HTML • CSS
-
----
-
-## 📂 Projetos de Automação
-
-👉 (adicione aqui repositórios com testes reais)
-
-* Automação com Cypress (E2E)
-* Automação com Playwright
-* Testes de API com Postman
