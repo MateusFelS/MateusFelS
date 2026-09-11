@@ -16,22 +16,22 @@ Experiência em:
 * Criação e execução de casos de teste (funcionais, regressivos e exploratórios)
 * Validação de regras de negócio e fluxos críticos
 * Testes de API com Postman
-* Automação de testes E2E com Cypress e Playwright
+* Automação de testes com Cypress (profissional) e Playwright (projetos pessoais)
 
-Atuo há cerca de 1 ano no projeto **ConectaBem**, contribuindo na validação contínua das funcionalidades, identificação de bugs e melhoria da qualidade do produto em ambiente ágil.
+Atuei por 1 ano no projeto **ConectaBem** (set/2025 – set/2026), contribuindo na validação contínua das funcionalidades, identificação de bugs e melhoria da qualidade do produto em ambiente ágil. Atualmente em busca de novas oportunidades na área de QA.
 
 ---
 
 ## Experiência prática
 
-### ConectaBem (Projeto real)
+### ConectaBem (Projeto real) — Set/2025 a Set/2026
 
-* Planejamento e execução de cerca de 20–30 cenários de testes funcionais e exploratórios por ciclo
-* Automação de cenários críticos utilizando Cypress
-* Testes de API com Postman, incluindo validação de endpoints e registro de evidências
-* Identificação, reporte e acompanhamento de 30+ bugs ao longo do ciclo de desenvolvimento
-* Validação de interfaces e protótipos no Figma em parceria com o time de design
-* Participação em cerimônias ágeis e apoio ao Product Owner no refinamento de tarefas
+* Planejei e executei cerca de 20–30 cenários de testes funcionais e exploratórios por ciclo
+* Automatizei cenários críticos utilizando Cypress
+* Testei APIs com Postman, incluindo validação de endpoints e registro de evidências
+* Identifiquei, reportei e acompanhei 30+ bugs ao longo do ciclo de desenvolvimento
+* Validei interfaces e protótipos no Figma em parceria com o time de design
+* Participei de cerimônias ágeis e apoiei o Product Owner no refinamento de tarefas
 
 ---
 
