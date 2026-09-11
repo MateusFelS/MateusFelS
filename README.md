@@ -24,7 +24,7 @@ Atuei por 1 ano no projeto **ConectaBem** (set/2025 – set/2026), contribuindo 
 
 ## Experiência prática
 
-### ConectaBem (Projeto real) — Set/2025 a Set/2026
+### ConectaBem — Set/2025 a Set/2026
 
 * Planejei e executei cerca de 20–30 cenários de testes funcionais e exploratórios por ciclo
 * Automatizei cenários críticos utilizando Cypress
