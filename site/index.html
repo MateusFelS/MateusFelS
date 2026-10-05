@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f2">
+  <meta name="description" content="Portfólio de Mateus Felipe dos Santos, Analista de QA Júnior. Testes manuais, APIs, automação e qualidade de software.">
+  <title>Mateus Felipe dos Santos — QA Júnior</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#f5f6f2;--ink:#17251f;--muted:#64716a;--line:#dce2da;--green:#c9fa70;--deep:#203c30;--card:#fff;--lilac:#ece9f6;--orange:#ec8056;--mono:"DM Mono",monospace;--sans:"DM Sans",sans-serif;--display:"Manrope",sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+    a{color:inherit}button{font:inherit}.wrap{width:min(1140px,calc(100% - 48px));margin:auto}
+    .topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:700;font-size:14px;letter-spacing:-.02em}
+    .brand-mark{width:31px;height:31px;display:grid;place-items:center;background:var(--deep);color:var(--green);border-radius:9px;font:500 11px var(--mono)}
+    .nav{display:flex;gap:28px;align-items:center}.nav a{text-decoration:none;color:#536158;font-size:13px;font-weight:600}.nav a:hover{color:var(--ink)}
+    .availability{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;font:11px var(--mono);color:#40564a;background:#fbfcf9}
+    .dot{width:7px;height:7px;border-radius:50%;background:#75bc46;box-shadow:0 0 0 3px #75bc4625}
+    .hero{padding:92px 0 78px;display:grid;grid-template-columns:1.18fr .82fr;gap:68px;align-items:center}
+    .eyebrow{font:11px var(--mono);text-transform:uppercase;letter-spacing:.13em;color:#607167;display:flex;align-items:center;gap:10px}
+    .eyebrow:before{content:"";width:24px;height:1px;background:var(--orange)}
+    h1,h2,h3,p{margin-top:0}h1{font:800 clamp(44px,6.3vw,78px)/.99 var(--display);letter-spacing:-.075em;margin:24px 0 23px;max-width:680px}
+    h1 span{color:#688270}.intro{font-size:17px;line-height:1.72;color:#536158;max-width:565px;margin:0 0 30px}
+    .actions{display:flex;gap:11px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;gap:10px;text-decoration:none;border-radius:8px;padding:13px 17px;font-size:13px;font-weight:700;transition:transform .18s ease,box-shadow .18s ease}.button:hover{transform:translateY(-2px)}
+    .primary{background:var(--deep);color:white;box-shadow:0 5px 13px #203c3020}.primary .arrow{color:var(--green)}.secondary{background:transparent;border:1px solid #ccd5cd;color:#31443a}
+    .hero-meta{font:11px var(--mono);color:#78857c;margin-top:23px}
+    .visual{position:relative;min-height:390px;display:flex;align-items:center;justify-content:center}
+    .orbit{position:absolute;width:340px;height:340px;border:1px solid #d7ded6;border-radius:50%;transform:rotate(-24deg)}
+    .orbit:before,.orbit:after{content:"";position:absolute;border:1px dashed #dce2da;border-radius:50%}.orbit:before{inset:27px}.orbit:after{inset:58px}
+    .orbit-dot{position:absolute;top:29px;right:46px;width:13px;height:13px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 7px #ec80551b}
+    .quality-card{position:relative;z-index:1;width:min(330px,90%);background:#fff;border:1px solid #e0e5de;border-radius:13px;box-shadow:0 24px 70px #29413416;overflow:hidden;transform:rotate(2deg)}
+    .card-head{height:42px;background:#f9faf7;border-bottom:1px solid #e9ede7;display:flex;align-items:center;gap:6px;padding:0 14px}
+    .window-dot{width:7px;height:7px;border-radius:50%;background:#e4b0a2}.window-dot:nth-child(2){background:#e9d482}.window-dot:nth-child(3){background:#a9ca9b}.card-label{margin-left:auto;font:9px var(--mono);color:#859187}
+    .card-body{padding:21px 19px 20px}.card-title{font:600 11px var(--mono);color:#698071;margin-bottom:15px}
+    .test-row{display:flex;align-items:center;gap:10px;border-bottom:1px solid #eff1ed;padding:10px 0;font-size:11px;color:#44544a}.check{width:17px;height:17px;display:grid;place-items:center;background:#edf7e5;color:#56733f;border-radius:5px;font-size:10px}
+    .test-row small{margin-left:auto;font:9px var(--mono);color:#839087}.card-foot{margin-top:18px;padding:12px;background:#f4f7ef;border-radius:7px;display:flex;align-items:center;justify-content:space-between;font:9px var(--mono);color:#66765d}.pass{color:#527b34}
+    .float-tag{position:absolute;z-index:2;padding:12px 14px;background:var(--green);border-radius:8px;font:10px var(--mono);box-shadow:0 8px 24px #253d2812}.float-tag.one{left:0;top:79px;transform:rotate(-4deg)}.float-tag.two{right:-1px;bottom:76px;background:var(--lilac);color:#584f72;transform:rotate(3deg)}
+    .ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0;overflow:hidden}
+    .ticker-inner{display:flex;justify-content:space-between;gap:24px;align-items:center;color:#78847b;font:10px var(--mono);text-transform:uppercase;letter-spacing:.08em}
+    .ticker-item{display:flex;align-items:center;gap:10px;white-space:nowrap}.ticker-item b{color:#344c3e;font-weight:500}
+    section{scroll-margin-top:30px}.section{padding:91px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:34px;gap:30px}
+    .kicker{font:10px var(--mono);color:#7b887f;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+    h2{font:700 clamp(30px,4vw,45px)/1.08 var(--display);letter-spacing:-.055em;margin-bottom:0}
+    .section-note{font-size:13px;color:#77837a;max-width:300px;line-height:1.6;margin-bottom:2px}
+    .experience{background:var(--deep);color:white;border-radius:14px;padding:29px 32px;display:grid;grid-template-columns:180px 1fr;gap:30px;position:relative;overflow:hidden}
+    .experience:after{content:"";position:absolute;width:230px;height:230px;border:1px solid #ffffff15;border-radius:50%;right:-93px;top:-120px;box-shadow:0 0 0 24px #ffffff08,0 0 0 48px #ffffff05}
+    .exp-date{font:10px var(--mono);color:#b6c6ba;line-height:1.8}.exp-date strong{display:block;color:var(--green);font-weight:400;margin-bottom:6px}
+    .exp-main h3{font:700 20px var(--display);letter-spacing:-.03em;margin:0 0 8px}.exp-main .role{font:11px var(--mono);color:#b7c6bb;margin-bottom:17px}.exp-main p{max-width:710px;color:#d4ded5;font-size:13px;line-height:1.75;margin:0}
+    .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.metric{padding:12px 14px;background:#ffffff0c;border:1px solid #ffffff18;border-radius:7px}.metric b{display:block;font:600 17px var(--display);color:var(--green);letter-spacing:-.04em}.metric span{display:block;margin-top:4px;font-size:10px;color:#b9c7bd}
+    .case-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .case{background:var(--card);border:1px solid #e2e7e0;border-radius:11px;padding:24px 25px 22px;display:flex;flex-direction:column;min-height:276px;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+    .case:hover{transform:translateY(-4px);box-shadow:0 14px 38px #253d2810;border-color:#c8d4c7}
+    .case-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:21px}.case-number{font:10px var(--mono);color:#97a298}.case-type{font:9px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:#6a786e;background:#f2f5ef;padding:7px 9px;border-radius:5px}
+    .case h3{font:700 22px var(--display);letter-spacing:-.045em;margin:0 0 9px}.case p{font-size:12px;line-height:1.75;color:#68756b;margin:0 0 19px;max-width:470px}
+    .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;margin-bottom:19px}.tag{font:9px var(--mono);color:#57675c;background:#f2f5ef;padding:6px 8px;border-radius:4px}
+    .case-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #edf0eb;padding-top:15px}.outcome{font-size:10px;color:#647365}.outcome strong{color:#456b37;font-weight:700}.case-link{text-decoration:none;font:10px var(--mono);color:#304e3b}.case-link:hover{text-decoration:underline}
+    .personal{background:#edeff0}.personal .section{padding-top:83px;padding-bottom:88px}.personal .case{min-height:230px}
+    .skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .skill{padding:19px 18px;border:1px solid var(--line);border-radius:9px;background:#fafbf8;min-height:125px}.skill-icon{font:11px var(--mono);color:#86958a;margin-bottom:17px}.skill h3{font:700 13px var(--display);margin:0 0 8px}.skill p{font-size:10px;line-height:1.7;color:#758078;margin:0}
+    .contact{padding:74px 0 82px}.contact-panel{background:var(--green);border-radius:14px;padding:42px 46px;display:flex;align-items:center;justify-content:space-between;gap:28px;position:relative;overflow:hidden}.contact-panel:after{content:"";position:absolute;width:290px;height:290px;border:1px solid #42603026;border-radius:50%;right:175px;top:-193px;box-shadow:0 0 0 27px #42603010,0 0 0 54px #42603009}
+    .contact-panel .kicker{color:#526948}.contact-panel h2{font-size:clamp(28px,3.8vw,42px);max-width:530px}.contact-panel p{font-size:12px;color:#52634b;margin:13px 0 0}.contact-panel .button{position:relative;z-index:1;white-space:nowrap;background:var(--deep);color:white}
+    footer{border-top:1px solid var(--line);padding:22px 0 28px;display:flex;justify-content:space-between;align-items:center;color:#7a867d;font:10px var(--mono)}footer a{color:#536b5a;text-decoration:none}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;gap:25px;padding:73px 0 56px}.visual{min-height:345px}.orbit{width:300px;height:300px}.section{padding:72px 0}.experience{grid-template-columns:1fr;gap:14px}.exp-date strong{display:inline;margin-right:10px}.skills{grid-template-columns:repeat(2,1fr)}.contact-panel{padding:34px;align-items:flex-start;flex-direction:column}.contact-panel:after{right:-40px}.ticker-inner{justify-content:flex-start;overflow:auto}}
+    @media(max-width:560px){.wrap{width:min(100% - 34px,1140px)}.topbar{height:66px}.nav{gap:14px}.nav a{font-size:11px}.nav a:nth-child(2){display:none}.availability{font-size:0;padding:10px}.availability .dot{width:8px;height:8px}.hero{padding-top:58px}h1{font-size:48px}.intro{font-size:15px}.visual{min-height:310px}.orbit{width:265px;height:265px}.float-tag.one{left:-3px;top:53px}.float-tag.two{right:-3px;bottom:49px}.ticker{padding:14px 0}.ticker-inner{gap:25px}.ticker-item{font-size:9px}.section-head{display:block}.section-note{margin-top:12px}.experience{padding:23px 20px}.metrics{grid-template-columns:1fr}.case-grid{grid-template-columns:1fr}.case{min-height:0;padding:21px}.skills{grid-template-columns:1fr 1fr;gap:8px}.skill{padding:15px 13px;min-height:132px}.contact-panel{padding:29px 23px}.contact-panel .button{width:100%;justify-content:center}footer{gap:12px;align-items:flex-start;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="#inicio" aria-label="Mateus Felipe dos Santos, início"><span class="brand-mark">MF</span><span>Mateus Felipe dos Santos</span></a>
+    <nav class="nav" aria-label="Navegação principal"><a href="#experiencia">Experiência</a><a href="#cases">Cases</a><a href="#sobre">Sobre</a></nav>
+    <span class="availability"><span class="dot"></span> ABERTO A OPORTUNIDADES REMOTAS</span>
+  </header>
+  <main>
+    <div class="wrap hero" id="inicio">
+      <div>
+        <div class="eyebrow">Qualidade de software, com curiosidade</div>
+        <h1>Eu testo para que o produto <span>funcione de verdade.</span></h1>
+        <p class="intro">Sou Mateus, Analista de QA Júnior. Investigo fluxos, valido regras de negócio e transformo comportamentos inesperados em relatos claros para o time corrigir.</p>
+        <div class="actions"><a class="button primary" href="#cases">Conheça meus cases <span class="arrow">↘</span></a><a class="button secondary" href="mailto:mateus.fes14@gmail.com">Vamos conversar <span>↗</span></a></div>
+        <div class="hero-meta">Fartura, SP · Remoto · CLT ou PJ</div>
+      </div>
+      <div class="visual" aria-label="Ilustração de uma lista de testes aprovados">
+        <div class="orbit"><span class="orbit-dot"></span></div>
+        <div class="float-tag one">edge case encontrado ↗</div>
+        <div class="quality-card">
+          <div class="card-head"><i class="window-dot"></i><i class="window-dot"></i><i class="window-dot"></i><span class="card-label">qa / test-run</span></div>
+          <div class="card-body">
+            <div class="card-title">CICLO DE VALIDAÇÃO · #014</div>
+            <div class="test-row"><span class="check">✓</span> Fluxo principal <small>PASSOU</small></div>
+            <div class="test-row"><span class="check">✓</span> Regras de negócio <small>PASSOU</small></div>
+            <div class="test-row"><span class="check">✓</span> Casos de borda <small>PASSOU</small></div>
+            <div class="test-row"><span class="check" style="background:#fff0e8;color:#bc6747">!</span> Comportamento inesperado <small>REPORTADO</small></div>
+            <div class="card-foot"><span>RESULTADO DO CICLO</span><strong class="pass">QUALIDADE EM FOCO</strong></div>
+          </div>
+        </div>
+        <div class="float-tag two">detalhe importa <span>✳</span></div>
+      </div>
+    </div>
+    <div class="ticker"><div class="wrap ticker-inner"><span class="ticker-item"><b>01</b> testes funcionais</span><span class="ticker-item"><b>02</b> exploração</span><span class="ticker-item"><b>03</b> qualidade de API</span><span class="ticker-item"><b>04</b> automação</span><span class="ticker-item"><b>05</b> documentação clara</span></div></div>
+    <section class="wrap section" id="experiencia">
+      <div class="section-head"><div><div class="kicker">Experiência profissional</div><h2>Qualidade no dia a dia<br>de um produto real.</h2></div><p class="section-note">Um ano trabalhando junto ao time de produto e desenvolvimento, da validação ao acompanhamento dos bugs.</p></div>
+      <article class="experience">
+        <div class="exp-date"><strong>SET 2025 — SET 2026</strong>PROJETO CONECTABEM</div>
+        <div class="exp-main"><h3>Analista de QA Júnior</h3><div class="role">TESTES WEB · API · AUTOMAÇÃO · AGILIDADE</div><p>Validei funcionalidades continuamente, criei e executei cenários funcionais e exploratórios, testei APIs e automatizei fluxos críticos. Trabalhei em parceria com desenvolvimento, design e produto para encontrar falhas cedo e dar contexto útil a cada reporte.</p>
+          <div class="metrics"><div class="metric"><b>30+</b><span>bugs identificados e acompanhados</span></div><div class="metric"><b>20–30</b><span>cenários por ciclo de testes</span></div><div class="metric"><b>Cypress</b><span>automação de cenários críticos</span></div></div>
+        </div>
+      </article>
+    </section>
+    <section class="wrap section" id="cases" style="padding-top:6px">
+      <div class="section-head"><div><div class="kicker">Trabalho em destaque</div><h2>Casos reais.<br>Olhar atento.</h2></div><p class="section-note">Estudos independentes em funcionalidades públicas. Cada case mostra escopo, cenários, evidências e o raciocínio por trás dos testes.</p></div>
+      <div class="case-grid">
+        <article class="case"><div class="case-top"><span class="case-number">CASE 01 / 03</span><span class="case-type">ESTUDO INDEPENDENTE</span></div><h3>123Milhas · Busca de passagens</h3><p>Testei o fluxo de busca, seleção de datas e filtros. Identifiquei sobreposição dos calendários de ida e volta, documentei a reprodução e as evidências; segundo meu acompanhamento, a empresa corrigiu o problema.</p><div class="tags"><span class="tag">14 cenários</span><span class="tag">Teste exploratório</span><span class="tag">Bug report</span></div><div class="case-bottom"><span class="outcome"><strong>1 bug corrigido</strong> após o reporte</span><a class="case-link" href="https://github.com/MateusFelS/123milhas-qa-case-study" target="_blank" rel="noreferrer">VER CASE ↗</a></div></article>
+        <article class="case"><div class="case-top"><span class="case-number">CASE 02 / 03</span><span class="case-type">ESTUDO INDEPENDENTE</span></div><h3>Sympla · Criação de evento</h3><p>Explorei o fluxo do produtor, da configuração inicial do evento à publicação. Planejei e executei cenários cobrindo datas, local, ingressos e navegação entre etapas.</p><div class="tags"><span class="tag">32 cenários</span><span class="tag">Teste funcional</span><span class="tag">2 bugs documentados</span></div><div class="case-bottom"><span class="outcome">Fluxo de publicação validado</span><a class="case-link" href="https://github.com/MateusFelS/sympla-qa-case-study" target="_blank" rel="noreferrer">VER CASE ↗</a></div></article>
+        <article class="case"><div class="case-top"><span class="case-number">CASE 03 / 03</span><span class="case-type">EXPERIÊNCIA PROFISSIONAL</span></div><h3>ConectaBem · Qualidade contínua</h3><p>Atuação no produto durante um ano: testes de funcionalidades e APIs, automação com Cypress, validação visual com Figma e colaboração em cerimônias e refinamentos.</p><div class="tags"><span class="tag">Cypress</span><span class="tag">Postman</span><span class="tag">Jira</span></div><div class="case-bottom"><span class="outcome">30+ bugs acompanhados</span><a class="case-link" href="https://github.com/MateusFelS/MateusFelS" target="_blank" rel="noreferrer">PERFIL PROFISSIONAL ↗</a></div></article>
+        <article class="case"><div class="case-top"><span class="case-number">PROCESSO</span><span class="case-type">COMO EU TRABALHO</span></div><h3>Do cenário à evidência</h3><p>Meus reports registram contexto, passos para reproduzir, resultado esperado e atual, impacto e evidências. O objetivo é tornar o próximo passo claro para quem vai investigar.</p><div class="tags"><span class="tag">Reprodução</span><span class="tag">Evidências</span><span class="tag">Comunicação</span></div><div class="case-bottom"><span class="outcome">Detalhes completos nos repositórios</span><a class="case-link" href="https://github.com/MateusFelS" target="_blank" rel="noreferrer">EXPLORAR GITHUB ↗</a></div></article>
+      </div>
+    </section>
+    <div class="personal" id="sobre">
+      <section class="wrap section">
+        <div class="section-head"><div><div class="kicker">Prática e aprendizado contínuo</div><h2>Construindo repertório<br>um teste por vez.</h2></div><p class="section-note">Projetos pessoais e estudos que mostram como aplico conceitos e evoluo minhas ferramentas.</p></div>
+        <div class="case-grid">
+          <article class="case"><div class="case-top"><span class="case-number">PROJETO PESSOAL</span><span class="case-type">PRÁTICA</span></div><h3>Projetos QA</h3><p>Repositório com exercícios e iniciativas pessoais de QA: automação, testes manuais e documentação de práticas e aprendizados.</p><div class="tags"><span class="tag">Playwright</span><span class="tag">Cypress</span><span class="tag">Testes manuais</span></div><div class="case-bottom"><span class="outcome">Projetos e estudos práticos</span><a class="case-link" href="https://github.com/MateusFelS/Projetos-QA" target="_blank" rel="noreferrer">VER PROJETOS ↗</a></div></article>
+          <article class="case"><div class="case-top"><span class="case-number">JORNADA DE ESTUDOS</span><span class="case-type">APRENDIZADO</span></div><h3>QA Júnior · Roadmap</h3><p>Trilha pessoal com fundamentos de qualidade, técnicas de teste, documentação, ferramentas e tópicos técnicos em evolução.</p><div class="tags"><span class="tag">Fundamentos</span><span class="tag">Técnicas</span><span class="tag">Evolução contínua</span></div><div class="case-bottom"><span class="outcome">Acompanhe o que estou estudando</span><a class="case-link" href="https://github.com/MateusFelS/qa-jr-roadmap" target="_blank" rel="noreferrer">VER ROADMAP ↗</a></div></article>
+        </div>
+      </section>
+    </div>
+    <section class="wrap section" style="padding-top:80px">
+      <div class="section-head"><div><div class="kicker">Ferramentas e fundamentos</div><h2>Prática que conecta<br>pessoas e produto.</h2></div></div>
+      <div class="skills">
+        <article class="skill"><div class="skill-icon">01 / VALIDAR</div><h3>Testes manuais</h3><p>Funcionais, regressivos, exploratórios, casos de teste e regras de negócio.</p></article>
+        <article class="skill"><div class="skill-icon">02 / INVESTIGAR</div><h3>APIs & dados</h3><p>Postman, validação de endpoints e SQL básico com MySQL.</p></article>
+        <article class="skill"><div class="skill-icon">03 / AUTOMATIZAR</div><h3>Automação</h3><p>Cypress em contexto profissional e Playwright em projetos pessoais.</p></article>
+        <article class="skill"><div class="skill-icon">04 / COLABORAR</div><h3>Ferramentas do time</h3><p>Jira, Git, GitHub, GitHub Actions e validação de protótipos no Figma.</p></article>
+      </div>
+    </section>
+    <section class="wrap contact" id="contato">
+      <div class="contact-panel"><div><div class="kicker">Próximo passo</div><h2>Vamos conversar sobre qualidade?</h2><p>Disponível para oportunidades remotas, CLT ou PJ, em empresas de qualquer setor.</p></div><a class="button" href="mailto:mateus.fes14@gmail.com">Fale comigo <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer class="wrap"><span>© 2026 Mateus Felipe dos Santos · QA Júnior</span><span><a href="https://linkedin.com/in/mateus-santos-qa" target="_blank" rel="noreferrer">LINKEDIN ↗</a> &nbsp;·&nbsp; <a href="https://github.com/MateusFelS" target="_blank" rel="noreferrer">GITHUB ↗</a></span></footer>
+</body>
+</html>
