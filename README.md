@@ -57,16 +57,9 @@ Testes exploratórios realizados por iniciativa própria em aplicações de empr
 - **Resultado:** ✅ Corrigido pela equipe  
 - [Ver relatório completo](https://github.com/MateusFelS/123milhas-qa-case-study)
 
-<table align="center">
-  <tr>
-    <th align="center">Antes (bug)</th>
-    <th align="center">Depois (corrigido)</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/14df5115-5091-40d6-838d-0423b0be404e" width="400"></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/862c1d98-b351-44cd-84eb-e63027dbee4b" width="400"></td>
-  </tr>
-</table>
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/14df5115-5091-40d6-838d-0423b0be404e" width="400"> | <img src="https://github.com/user-attachments/assets/862c1d98-b351-44cd-84eb-e63027dbee4b" width="400"> |
+
 ---
 
 ### QuatroDois — Links e botões da landing page levam a páginas inexistentes
