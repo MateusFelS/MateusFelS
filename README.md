@@ -45,21 +45,17 @@ Atuei por 1 ano no projeto **ConectaBem** (set/2025 – set/2026), contribuindo 
 
 ---
 
----
-
----
-
 ## Contribuições em produtos reais
 
 Testes exploratórios realizados por iniciativa própria em aplicações de empresas reais. Os bugs foram reportados com evidências e passos de reprodução, e **corrigidos pelas equipes responsáveis**.
 
 ### 123Milhas — Calendários de data abertos ao mesmo tempo ficam sobrepostos
 
-**O que testei:** Busca de passagens (seleção de datas de ida e volta), em teste exploratório de interface  
-**Bug:** Ao abrir o seletor de data de ida e, em seguida, o de volta, o primeiro calendário não fecha. Os dois ficam abertos simultaneamente e se sobrepõem, o que atrapalha a seleção das datas.  
-**Impacto:** Dificulta uma etapa central do fluxo de compra e pode gerar seleção incorreta de datas  
-**Resultado:** ✅ Corrigido pela equipe  
-📄 [Ver relatório completo](https://github.com/MateusFelS/123milhas-qa-case-study)
+- **O que testei:** Busca de passagens (seleção de datas de ida e volta), em teste exploratório de interface  
+- **Bug:** Ao abrir o seletor de data de ida e, em seguida, o de volta, o primeiro calendário não fecha. Os dois ficam abertos simultaneamente e se sobrepõem, o que atrapalha a seleção das datas.  
+- **Impacto:** Dificulta uma etapa central do fluxo de compra e pode gerar seleção incorreta de datas  
+- **Resultado:** ✅ Corrigido pela equipe  
+- [Ver relatório completo](https://github.com/MateusFelS/123milhas-qa-case-study)
 
 | Antes (bug) | Depois (corrigido) |
 |:---:|:---:|
@@ -69,12 +65,11 @@ Testes exploratórios realizados por iniciativa própria em aplicações de empr
 
 ### QuatroDois — Links e botões da landing page levam a páginas inexistentes
 
-**O que testei:** Navegação e links da landing page, em teste exploratório funcional  
-**Bug:** Vários links e botões de chamada para ação (CTAs) redirecionam o usuário para uma página de erro, em vez do destino esperado.  
-**Evidência:** a página exibia a mensagem *"This Page Does Not Exist"*  
-**Impacto:** Quebra a navegação e impede o usuário de avançar a partir da página inicial  
-**Resultado:** ✅ Corrigido pela equipe  
-📄 [Ver relatório completo](https://github.com/MateusFelS/quatrodois)
+- **O que testei:** Navegação e links da landing page, em teste exploratório funcional  
+- **Bug:** Vários links e botões de chamada para ação (CTAs) redirecionam o usuário para uma página de erro, em vez do destino esperado.  
+- **Impacto:** Quebra a navegação e impede o usuário de avançar a partir da página inicial  
+- **Resultado:** ✅ Corrigido pela equipe  
+- [Ver relatório completo](https://github.com/MateusFelS/quatrodois)
 
 | Antes (bug) | Depois (corrigido) |
 |:---:|:---:|
