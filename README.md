@@ -47,40 +47,35 @@ Atuei por 1 ano no projeto **ConectaBem** (set/2025 – set/2026), contribuindo 
 
 ---
 
+---
+
 ## Contribuições em produtos reais
 
-Testes exploratórios e de API realizados por iniciativa própria em aplicações de empresas reais. Os bugs foram reportados e **corrigidos pelas equipes responsáveis**.
+Testes exploratórios realizados por iniciativa própria em aplicações de empresas reais. Os bugs foram reportados com evidências e passos de reprodução, e **corrigidos pelas equipes responsáveis**.
 
-### 123Milhas — Calendários de seleção de data são exibidos sobrepostos
+### 123Milhas — Calendários de data abertos ao mesmo tempo ficam sobrepostos
 
-**O que testei:** Busca de Passagens   
-**Bug:** Ao abrir os seletores de data para alterar as datas de ida e volta, o sistema permite que mais de um calendário permaneça aberto simultaneamente, fazendo com que os componentes sejam exibidos sobrepostos e dificultem a interação do usuário.  
+**O que testei:** Busca de passagens (seleção de datas de ida e volta), em teste exploratório de interface  
+**Bug:** Ao abrir o seletor de data de ida e, em seguida, o de volta, o primeiro calendário não fecha. Os dois ficam abertos simultaneamente e se sobrepõem, o que atrapalha a seleção das datas.  
+**Impacto:** Dificulta uma etapa central do fluxo de compra e pode gerar seleção incorreta de datas  
 **Resultado:** ✅ Corrigido pela equipe  
 📄 [Ver relatório completo](https://github.com/MateusFelS/123milhas-qa-case-study)
-
-<details>
-<summary>📸 Ver antes e depois</summary>
-<br>
 
 | Antes (bug) | Depois (corrigido) |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/14df5115-5091-40d6-838d-0423b0be404e" width="400"> | <img src="https://github.com/user-attachments/assets/862c1d98-b351-44cd-84eb-e63027dbee4b" width="400"> |
-</details>
 
 ---
 
-### QuatroDois — Links e CTAs da landing page direcionam para páginas inexistentes
+### QuatroDois — Links e botões da landing page levam a páginas inexistentes
 
-**O que testei:** Navegação da Landing Page   
-**Bug:** Diversos links e botões presentes na landing page direcionam o usuário para páginas inexistentes, exibindo a mensagem: "This Page Does Not Exist Sorry, the page you are looking for could not be found. It's just an accident that was not intentional."  
+**O que testei:** Navegação e links da landing page, em teste exploratório funcional  
+**Bug:** Vários links e botões de chamada para ação (CTAs) redirecionam o usuário para uma página de erro, em vez do destino esperado.  
+**Evidência:** a página exibia a mensagem *"This Page Does Not Exist"*  
+**Impacto:** Quebra a navegação e impede o usuário de avançar a partir da página inicial  
 **Resultado:** ✅ Corrigido pela equipe  
 📄 [Ver relatório completo](https://github.com/MateusFelS/quatrodois)
-
-<details>
-<summary>📸 Ver antes e depois</summary>
-<br>
 
 | Antes (bug) | Depois (corrigido) |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/04241bc0-9995-4cf3-8a5e-a40c10ff58ec" width="400"> | <img src="https://github.com/user-attachments/assets/3a0ad20a-8ab8-4264-bfb3-13866cbc2379" width="400"> |
-</details>
